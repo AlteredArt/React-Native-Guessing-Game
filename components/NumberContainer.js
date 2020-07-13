@@ -5,7 +5,7 @@ import Colors from '../constants/colors';
 const NumberContainer= props => {
     return(
         <View style={styles.container}>
-                <Text styles={styles.number}>{props.children}</Text>
+                <Text style={styles.number}>{props.children}</Text>
             </View>
     )
 }
@@ -21,8 +21,8 @@ const styles = StyleSheet.create ({
         marginVertical: 10,
     },
     number: {
-        color: Colors.accent,
-        fontSize: 22,
+        color: Colors.primary,
+        fontSize: 42,
     }
 })
 export default NumberContainer
