@@ -83,7 +83,7 @@ const StartGameScreen = props => {
                         </View>
                     <View style={{width: buttonWidth}}>
                         <MainButton onPress={confirmInputHandler} color={Colors.primary}>
-                        Agree</MainButton>
+                        Start</MainButton>
                         </View>
                 </View>
                 </Card>
