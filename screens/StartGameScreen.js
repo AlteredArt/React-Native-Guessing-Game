@@ -68,7 +68,7 @@ const StartGameScreen = props => {
                         </View>
                     <View style={styles.button}>
                         <MainButton onPress={confirmInputHandler} color={Colors.primary}>
-                        Agree</MainButton>
+                        Start</MainButton>
                         </View>
                 </View>
                 </Card>
@@ -90,8 +90,9 @@ const styles = StyleSheet.create({
         fontFamily: 'open-sans-bold'
     },
     inputContainer: {
-        width: 300,
-        maxWidth: '80%',
+        minWidth: 300,
+        width: '80%',
+        // maxWidth: '80%',
         alignItems: 'center',
     },
     buttonContainer: {
